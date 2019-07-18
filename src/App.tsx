@@ -8,6 +8,9 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <div className="box">
+          <div className="content"></div>
+        </div>
         <Button>123</Button>
         <img src={logo} className="App-logo" alt="logo" />
         <p>

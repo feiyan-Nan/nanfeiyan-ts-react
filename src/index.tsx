@@ -4,16 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// 将antd的语言设置成中文
-import { LocaleProvider } from 'antd';
-import zhCN from 'antd/lib/locale-provider/zh_CN';
+
 
 // import { Provider } from 'react-redux'
-// import '@/style/reset.less'
+import './styles/index.scss';
 ReactDOM.render(
-  <LocaleProvider locale={zhCN}>
-    <App />
-  </LocaleProvider>,
+  <App />,
   document.getElementById('root')
 );
 
